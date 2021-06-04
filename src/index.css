@@ -1,0 +1,87 @@
+*{
+  font-size: 20px;
+  line-height: 25px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  font-size: 40px;
+  line-height: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:rgb(35, 8, 206);
+}
+
+.name{
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+}
+
+.time{
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  width: 300px;
+}
+
+.Button{
+  font-size: 20px;
+  font-weight: 700;
+  width: 200px;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border-color:darkslateblue;
+  color:darkslateblue;
+  border-width: 2px;
+}
+
+.container{
+  display: flex;
+  background-color: rgb(75, 186, 238);
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.list{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item{
+  display: flex;
+}
+
+.headName{
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  width: 300px;
+  font-size: 40px;
+}
+
+.headTime{
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  width: 300px;
+  font-size: 40px;
+}
